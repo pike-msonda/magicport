@@ -1,0 +1,47 @@
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.createForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.selectInput {
+    padding: 10px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+.selectInput:focus {
+    outline: none;
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.formActionButons {
+    display: flex;
+    gap: 10px;
+}
+
+.submitButton:hover {
+    background-color: #ced4da;
+}
+
+.confirmDialog {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .button:hover {
+    background-color: #4d9de0;
+    opacity: 0.7;
+}
+
+.confirmDialogActions {
+    display: flex;
+    gap: 10px;
+}

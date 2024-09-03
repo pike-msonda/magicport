@@ -1,0 +1,9 @@
+.container {
+    /* background-color: white; */
+}
+
+.lists {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.container label {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.textInput {
+    padding: 10px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.textInput:focus {
+    outline: none;
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+
+.error {
+    color: red;
+    font-size: 11px;
+}
